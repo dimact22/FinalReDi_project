@@ -1,2 +1,1 @@
-# FinalReDi_project
-Final project of Dmytro Shelikhov
+Для створення віртуального середовища я використовував pipenv.
