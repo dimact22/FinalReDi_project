@@ -1,7 +1,7 @@
 from functiontg import *
 from functionbd import *
-
-botTimeWeb = telebot.TeleBot('6854274329:AAHDu8vRTCIhWWJ0p-55EzCSW2FGey8p4dw')
+TOKEN = os.environ('TOKEN')
+botTimeWeb = telebot.TeleBot(TOKEN)
 
 
 def update_job_title_in_bd_enter(message, db):
