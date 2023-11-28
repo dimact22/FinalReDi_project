@@ -1,6 +1,6 @@
 from functiontg import *
 from functionbd import *
-TOKEN = os.environ('TOKEN')
+TOKEN = os.environ['TOKEN']
 botTimeWeb = telebot.TeleBot(TOKEN)
 
 
