@@ -2,7 +2,8 @@ from functiontg import *
 from functionbd import *
 import shutil
 
-botTimeWeb = telebot.TeleBot('6854274329:AAHDu8vRTCIhWWJ0p-55EzCSW2FGey8p4dw')
+TOKEN = os.environ['TOKEN']
+botTimeWeb = telebot.TeleBot(TOKEN)
 
 
 def del_bd_all(message, random_symbols):
