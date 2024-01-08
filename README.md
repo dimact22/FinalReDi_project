@@ -1,1 +1,1 @@
-Для створення віртуального середовища я використовував pipenv.
+To create a virtual environment, I used pipenv.
